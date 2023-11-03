@@ -7,10 +7,12 @@ import SearchPanel from '../search-panel/search-panel';
 import './app.css'
 function App () {
     const data = [
-        {name: 'Рамзан' , salary: 57000, increase: true},
-        {name: 'Рустам' , salary: 52000, increase: false},
-        {name: 'Абу' , salary: 30000, increase: false},
-        {name: 'Тимур' , salary: 30000, increase: true},
+        {name: 'Муслим' , salary: 500000, increase: true, id: 1},
+        {name: 'Рамзан' , salary: 57000, increase: true, id: 2},
+        {name: 'Рустам' , salary: 52000, increase: false, id: 3},
+        {name: 'Абу' , salary: 30000, increase: false, id: 4},
+        {name: 'Тимур' , salary: 30000, increase: true, id: 5},
+        {name: 'Абдул-Азиз' , salary: 30000, increase: true, id: 6},
     ];
     return (
         <div className="app">
